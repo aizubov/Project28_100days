@@ -14,6 +14,8 @@
 		784D86CF29F0DEB7005F371C /* Project28_100days.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 784D86CD29F0DEB7005F371C /* Project28_100days.xcdatamodeld */; };
 		784D86D129F0DF0A005F371C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784D86D029F0DF0A005F371C /* Assets.xcassets */; };
 		784D86D429F0DF0A005F371C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784D86D229F0DF0A005F371C /* LaunchScreen.storyboard */; };
+		784D86DD29F0E3AC005F371C /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784D86DB29F0E3AC005F371C /* KeychainWrapper.swift */; };
+		784D86DE29F0E3AC005F371C /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784D86DC29F0E3AC005F371C /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		784D86D029F0DF0A005F371C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784D86D329F0DF0A005F371C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		784D86D529F0DF0A005F371C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784D86DB29F0E3AC005F371C /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		784D86DC29F0E3AC005F371C /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				784D86D029F0DF0A005F371C /* Assets.xcassets */,
 				784D86D229F0DF0A005F371C /* LaunchScreen.storyboard */,
 				784D86D529F0DF0A005F371C /* Info.plist */,
+				784D86DC29F0E3AC005F371C /* KeychainItemAccessibility.swift */,
+				784D86DB29F0E3AC005F371C /* KeychainWrapper.swift */,
 				784D86CD29F0DEB7005F371C /* Project28_100days.xcdatamodeld */,
 			);
 			path = Project28_100days;
@@ -145,6 +151,8 @@
 				784D86C929F0DEB7005F371C /* ViewController.swift in Sources */,
 				784D86C529F0DEB7005F371C /* AppDelegate.swift in Sources */,
 				784D86C729F0DEB7005F371C /* SceneDelegate.swift in Sources */,
+				784D86DD29F0E3AC005F371C /* KeychainWrapper.swift in Sources */,
+				784D86DE29F0E3AC005F371C /* KeychainItemAccessibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
